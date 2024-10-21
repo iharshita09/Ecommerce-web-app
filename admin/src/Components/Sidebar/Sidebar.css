@@ -1,0 +1,71 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 20px;
+    width: 100%;
+    max-width: 250px;
+    height: 100vh;
+    background: white;
+}
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0px 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background: #F6F6F6;
+    gap: 20px;
+    cursor: pointer;
+}
+/* Styling for the sidebar container */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f4f4f4; /* Example background color */
+  }
+  
+  /* Styling for each sidebar item */
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Sidebar icons */
+  .sidebar-item img {
+    width: 30px;  /* Adjust the icon size as needed */
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  /* Text styling for the sidebar items (buttons) */
+  .sidebar-item p {
+    font-size: 18px;
+    color:  #cc4680; /* Medium pink color */
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  /* Hover effect to make it interactive */
+  .sidebar-item:hover {
+    background-color: #e6e6e6; /* Optional hover background */
+    cursor: pointer;
+  }
+  
+@media(max-width:800px){
+    .sidebar{
+        padding: 30px 0px;
+        flex-direction: row;
+        width: 100%;
+        max-width: none;
+        height: auto;
+        justify-content: center;
+    }
+    .sidebar-item{
+        margin:0;
+    }
+}

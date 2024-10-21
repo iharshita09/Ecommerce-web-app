@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 60px;
+    box-shadow: 0 1px 3px -2px black;
+    margin-bottom: 1px;
+    background: white;
+}
+.nav-logo{
+    width: 200px;
+}
+.nav-profile{
+    width: 75px;
+}
+/* Styling for the entire navbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  /* Align content to the left */
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Optional background color */
+    width: 100%;
+  }
+  
+  /* Styling for the left section of the navbar */
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Styling for the logo */
+  .nav-logo {
+    width: 30px;  /* Set small width for the logo */
+    height: auto;  /* Maintain aspect ratio */
+    margin-right: 10px;  /* Space between logo and text */
+  }
+  
+  /* Styling for the title */
+  .nav-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333; /* Adjust text color as needed */
+  }
+  
+@media(max-width:800px){
+    .navbar{
+        padding: 15px 30px;
+    } 
+    .nav-logo{
+        width: 150px;
+    }
+    .nav-profile{
+        width: 60px;
+    }
+}
